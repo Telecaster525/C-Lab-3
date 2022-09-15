@@ -1,5 +1,5 @@
 #include <stdio.h>
-// BETA TEST, НУЖНО ДОБАВИТЬ ПОДДЕРЖКУ РУССКОГО ЯЗЫКА, НА ЭТО БОЛЬНО СМОТРЕТЬ
+
 int main() {
     int first, second;
     printf("Enter your favorite number in DEC number system: \n");
@@ -15,6 +15,6 @@ int main() {
     printf("Enter your second favorite number in the OCT number system: \n");
     scanf("%o", &second);
     printf("The result of the bitwise \"exclusive or\" operation with the numbers you entered: \n");
-    printf("%o", first^second); // ^ - исключающее или
+    printf("%o", first^second);
     return 0;
 }
